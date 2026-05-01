@@ -66,7 +66,7 @@ Download Co-op Mod: https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-
 
 8. In main menu, multiplayer related buttons should appear.
 
-9. Continue to "How to play" sections of this README.
+
 
 <details>
 <summary>FOR LINUX USERS</summary>
