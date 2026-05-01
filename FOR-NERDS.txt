@@ -83,12 +83,6 @@ DEDICATED SERVER EXAMPLE:
 
 
 
-# This mod uses "Unity Netcode for GameObjects" library version 1.7.1   
-
-
-
-
-
 
 
 # All game rules:

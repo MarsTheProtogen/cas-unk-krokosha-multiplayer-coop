@@ -1,0 +1,54 @@
+"Casualties: Together" Co-Op Mod by Krokosha666 for game "Casualties: Unknown"
+Official link: https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop
+buymeacoffee: https://buymeacoffee.com/krokosha666
+
+
+
+1. Download BepInEx from:   https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x64_5.4.23.5.zip
+
+2. Go to Game directory:
+ - Open Steam
+ - Right click on the game
+ - Click: Manage > Browse Local Files
+ - Now you opened the game root directory
+
+3. Unzip BepInEx in the game root directory.
+
+4. Unzip MP Mod (you've already done it)
+
+5. Move the contents of "mod" folder into the game root directory.
+
+Now it should look like this:
+  CasualtiesUnknown/
+    - CasualtiesUnknown.exe
+    - UnityPlayer.dll
+    - UnityCrashHandler64.exe
+    - CasualtiesUnknown_Data/
+    - MonoBleedingEdge/
+    - winhttp.dll  <-  from BepInEx zip
+    - steam_appid.txt  <-  from mod zip
+    - BepInEx/
+    - - plugins/
+    - - - KrokMP/                    <-  from mod zip
+    - - - - KrokoshaCasualtiesMP.dll
+    - - - - Unity.Netcode.Runtime.dll
+    - - - - Unity.Networking.Transport.dll
+    - - - - ...and so on
+    - - core/
+
+6. Launch the game through steam.
+
+7. MP button should appear at the bottom.
+
+
+Didn't work? Go cry at people:
+ Casualties: Together Mod Discord:     https://discord.gg/7K6J6bhV8b
+ Casualties: Unknown Official Discord: https://discord.gg/targetplanet
+
+
+
+
+
+
+
+

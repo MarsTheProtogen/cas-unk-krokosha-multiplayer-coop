@@ -13,7 +13,7 @@ KNOWN ISSUES:
  
 
  --- 3.0.0 --- 01.05.2026 --- Steam Update --- 
-Ported to the game version v6.0
+Ported to the game version v6.1
 Replaced the network library "Unity Netcode for GameObjects" to "LiteNetLib" in hopes for better performance.
 Added button to deactivate multiplayer mod to play singleplayer without copying the game.
  - Can be also done with cmd arg "--ksmulti-disable"
