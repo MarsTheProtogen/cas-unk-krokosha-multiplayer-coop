@@ -1,11 +1,15 @@
 "Casualties: Together" Co-Op Mod by Krokosha666 for game "Casualties: Unknown"
 Official link: https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop
-(my abandoned YT channel): https://www.youtube.com/@Krokosha666
 buymeacoffee: https://buymeacoffee.com/krokosha666
 
 # Port Forwarding:
 This mod uses UDP protocol.
 Default port: 7790 
+
+# New Files saved:
+%LocalAppData%Low/Orsoniks/CasualtiesUnknown/mp_rule_presets.json  -  where the rule presets are saved
+%LocalAppData%Low/Orsoniks/CasualtiesUnknown/mp_banlist.json  -  is for people you banned
+%LocalAppData%Low/Orsoniks/CasualtiesUnknown/mp_save/   - is new location for save files  
 
 # Console commands:
 This mod adds mutliplayer-exclusive console commands.
@@ -17,7 +21,7 @@ Write "help" into the console to see them all.
 "adminpriv-password" to give access to server console to a client who knows the password
 "adminpriv" to give access to server console to a client
 "admin" to enter server console as a client (to use most cheat commands) (takes password if ur not whitelisted)
-"krok maxplayers [number]" (default is 20)
+"maxplayers [number]" (default is 16)
 
 "currentrules" to see game rules
 "rule [rule name] [value]" is for:
@@ -46,6 +50,11 @@ also some commands that require player name as input can accept macros:
 "krokosha_coop_chat" default: Slash
 "krokosha_coop_voicechat" default: V
 "krokosha_coop_woundview" default: R
+"krokosha_coop_push" default: F
+"krokosha_coop_piggyback" default: P
+"krokosha_coop_carry" default: K
+"krokosha_coop_inventory" default: O
+"krokosha_coop_showplrs" default: LeftShift
 
 
 Are added to the "keybinds.json" automatically.
@@ -64,6 +73,10 @@ Are added to the "keybinds.json" automatically.
 --ksmulti-min-plr-count	[int]	// for AutoContinue rule, it tells dedicated server what is the minimum player count to automatically start the run (does not affect run continue)
 --ksmulti-setrule [rule] [value] // set a game rule before start, in in-game console enter "currentrules" to see them all
 --ksmulti-runcommand		// run a in-game console command in main menu after the game and mp starts // example: "--ksmulti-runcommand setpref_loot_0;log_WASUUUP;log_another_message_idk"
+--ksmulti-servername My_Server   // override server name
+--ksmulti-nosteam			// don't attach the game to steam (this locks you only to direct IP connection mode, and server browser does not work)
+--ksmulti-hoststeam [public/private/friendsonly]   // create lobby when the game initializes
+
 
 DEDICATED SERVER EXAMPLE: 
 "CasualtiesUnknown.exe -screen-fullscreen 0 -screen-height 360 -screen-width 640 --ksmulti-ip-port 127.0.0.1:7790 --ksmulti-setrule AllowJoinWhileInGame 1 --ksmulti-setrule PLAYER_COUNT_LIMIT 64 --ksmulti-setname Krokosha --ksmulti-runcommand loadcustommusic --ksmulti-startserver --ksmulti-verbose --ksmulti-min-plr-count 16 --ksmulti-immidiate-start"

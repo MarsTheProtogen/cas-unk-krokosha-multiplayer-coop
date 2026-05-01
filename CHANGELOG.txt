@@ -1,17 +1,86 @@
 "Casualties: Together" Co-Op Mod by Krokosha666 for game "Casualties: Unknown"
 Official link: https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop
-(my abandoned YT channel): https://www.youtube.com/@Krokosha666
 buymeacoffee: https://buymeacoffee.com/krokosha666
 
 
 KNOWN ISSUES:
- - Save system does not work.
+ - Catastrophic desync for clients 
  - Extreme lag for clients.
  - Extreme lag with larger time scale.
  - Gun jamming might desync
  - Console commands are not synced. (but there is admin mode to run commands on server side)
  - Ragdoll just teleports around.
  
+
+ --- 3.0.0 --- 01.05.2026 --- Steam Update --- 
+Ported to the game version v6.0
+Replaced the network library "Unity Netcode for GameObjects" to "LiteNetLib" in hopes for better performance.
+Added button to deactivate multiplayer mod to play singleplayer without copying the game.
+ - Can be also done with cmd arg "--ksmulti-disable"
+Steam Networking Support added !!!!!!
+ - Added steam lobbies browser.
+ - Host steam lobbies n shi, u know steam works burh
+Major internal rewrites.
+ - Major optimizations. ( hopefully)
+ - - Improved performance of Climbables sync.
+ - - Improved performance of buildings and items player distance calculations.
+ - - And much more crazy science shi
+ - Fixed stuff occasionally duplicating mostly in other players inventories.
+Complete GUI overhaul.
+ - Everything has to be translatable now.
+ - Tried to replace the default unity look with the game ui textures.
+ - Made proper connection menu.
+ - Made proper settings menu.
+ - Made proper credits menu.
+Added Bug Report form.
+Added Auto-Updater button.
+Localization json files now have more priority over hardcoded text, so its possible to override default text now.
+Chat shows player colors.
+Location ping (by MMB) now fades out.
+Spectator can click on players to spectate them.
+Fixed console banned commands bypass backdoor through repeat and bind commands.
+Fixed item decay depending only on host movement instead of whoever's carrying it.
+Fixed fullbright not working in spectator mode.
+Fixed not being able to interact with limbs in woundview that the local player has amputated.
+Fixed infinite earthquake for clients when host character is sleeping.
+Fixed "Feed" action not working with wearables.
+Fixed minigame hands of other players not being removed after exiting.
+Fixed Dislocation Minigame often leaving dislocation at 1%.
+Patched some global sounds to sound more as expected.
+Patched WoundView fullscreen miserable happiness indicator, to show only for local body.
+Somewhat synced blueprints?? i guess?
+Increased radius of immediate chunk sync.
+"Feed" action name changes to "Use Item" and "Dress" for specific items.
+Everything in tutorial is synced the same as in main game. (No more forced desync in there)
+Command setlimbfield also accepts "all" to set a value to all limbs.
+Optimized the way visible chunks of players are calculated.
+Respawn with RespawnKeepSkills keeps mindwipe.
+Renamed most rules to be sorter:
+Renamed all FriendlyFire rules to PVP.
+ - "AllowJoinWhileInGame" to "LateJoinAllowed"
+ - "LayerFinishActivateRadlineForStragglersPlayerPercent" to "StragglerRadlinePlayerPercent"
+ - "PlayerScatterPunishMinPlayerPercent" to "PlayerScatterMinGroupSize"
+ - and more...
+Added rule "LateJoinSpectate". Late joined players will instantly die and put into spectator mode.
+Added Teams:
+ - It's a really barebones system.
+ - Teams are determined by colors.
+ - Disabled by default with rule "Teams"
+Added CPR.
+ - CPR is unavailable if you're too weak or the pacient is fine.
+ - You have to do perfect 100 bpm for it to work. 
+ - It's also added to AED Minigame.
+Added Keybind for "Push" action. Default "F"
+Added Keybind for "Carry" action. Default "O"
+Added Keybind for "Piggyback" action. Default "P"
+Press Shift to reveal player locations. (instead of just the pause menu)
+Added piggyback stacking, towering is now possible.
+ - Replaced rule "AllowPiggyback" to "PiggybackMaxStack"
+Added IPv6 support.
+Added server name field.
+Allowed non-ascii characters in password.
+
+
 
  --- 2.1.2 --- 12.03.2026 --- Save patch --- 
 Fixed anti player scatter unfairly engaging while late-joining.
@@ -189,7 +258,7 @@ Special thanks for participation goes to:
  - avr - @avr_crtscc  - playtester
  - ItsVoidSK - @itsvoidskilled  - playtester
  - {Pixel} - @canned_pixels  - playtester
- - ΠΡ€Π°ΠΊ 2.0 - @mrakmm  - playtester
+ - Μπΰκ 2.0 - @mrakmm  - playtester
  - Shade - @waz2280  - playtester
  - Dictator - @snow_5107  - playtester
 
