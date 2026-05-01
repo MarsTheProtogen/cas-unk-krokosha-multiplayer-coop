@@ -71,7 +71,8 @@ Download Co-op Mod: https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-
 <details>
 <summary>FOR LINUX USERS</summary>
 
-1. Just pray that proton works
+1. Add this to launch options: `WINEDLLOVERRIDES="winhttp=n,b" %command%`
+ - It tells proton to load BepInEx
 
 </details>
 </details>
