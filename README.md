@@ -65,14 +65,15 @@ Download Co-op Mod: https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-
 7. Go back to steam and click **Play**.
 
 8. In main menu, multiplayer related buttons should appear.
+    - (To go back to singleplayer you need to press the `Deactivate MP Mod` button in `Settings > General`!)
 
-
+9. (optional) Upvote/Share/Support the mod.
 
 <details>
 <summary>FOR LINUX USERS</summary>
 
-1. Add this to launch options: `WINEDLLOVERRIDES="winhttp=n,b" %command%`
- - It tells proton to load BepInEx
+1. Add this to launch options `WINEDLLOVERRIDES="winhttp=n,b" %command%`
+    - It tells proton to load BepInEx.
 
 </details>
 </details>
@@ -82,22 +83,25 @@ Download Co-op Mod: https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-
 
     
 # Warning:
-Make sure to launch the game through Steam Library. <br/>
-For the Steam Lobbies to work.
-
-
-If nothing works: It's a skill issue - Don't whine and try again.
+If it doesn't work: It's a skill issue - Don't whine and try again.
  - Or cry at people in "Casualties: Together" discord server: https://discord.gg/SA6H7mA6De
+
+Make sure to launch the game through Steam Library. For the Steam Lobbies to work.
+
+It's recommended to play at max 4 people because of the poor optimization.<br/>
+You need good internet connection and being physically close to your friends for optimal experience.
+
 
 !!!<br>
 IF YOU ENCOUNTER ANY GLITCHES, CRASHES, OTHER ISSUES - BLAME ME AND THE MOD, NOT THE ORIGINAL DEVELOPER OF THE GAME<br>
 !!!
 
+To go back to singleplayer you need to press the `Deactivate MP Mod` button in `Settings > General`!
 
 
 # Features:
 Steam Lobbies<br>
-Real voice chat with in-game effects.<br>
+Real voice chat with in-game effects.<br/>
 Middle Mouse Button to point at a location.<br>
 Right click to interact and heal other players.<br> 
 Stay close to others to share body temperature.<br>

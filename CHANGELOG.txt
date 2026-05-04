@@ -11,6 +11,30 @@ KNOWN ISSUES:
  - Console commands are not synced. (but there is admin mode to run commands on server side)
  - Ragdoll just teleports around.
  
+ --- 3.0.1 --- TODO --- Quick Fixes --- 
+Edited misleading readmes n guides 
+Patched phantom screen shake effect for:
+ - Spike stabber
+ - Jump pad
+ - Coil trap
+ - Bear trap
+ - Grappling hook
+Fixed bug report send not working if u have unicode username in steam.
+Fixed misaligned sleep menu.
+Fixed chat messages sometimes cutting off last word.
+Fixed the "You havent made this before" label stuck forever in craft menu.
+Added rule "AlwaysAllowCarry" to allow carrying conscious players. default "false"
+Added "Toggle to talk" mode to voicechat.
+Fixed missing text in CPR minigame.
+Hopefully improved horrible delay on steam lobbies. (a quick bandaid fix, im release proper fix later)
+TODO
+TODO
+ - TODO
+ - TODO
+TODO
+TODO
+TODO
+TODO
 
  --- 3.0.0 --- 01.05.2026 --- Steam Update --- 
 Ported to the game version v6.1
@@ -79,7 +103,7 @@ Added piggyback stacking, towering is now possible.
 Added IPv6 support.
 Added server name field.
 Allowed non-ascii characters in password.
-
+theres more changes, i forgor to write all
 
 
  --- 2.1.2 --- 12.03.2026 --- Save patch --- 
