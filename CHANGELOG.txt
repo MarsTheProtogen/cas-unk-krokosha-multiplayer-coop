@@ -11,30 +11,6 @@ KNOWN ISSUES:
  - Console commands are not synced. (but there is admin mode to run commands on server side)
  - Ragdoll just teleports around.
  
- --- 3.0.1 --- TODO --- Quick Fixes --- 
-Edited misleading readmes n guides 
-Patched phantom screen shake effect for:
- - Spike stabber
- - Jump pad
- - Coil trap
- - Bear trap
- - Grappling hook
-Fixed bug report send not working if u have unicode username in steam.
-Fixed misaligned sleep menu.
-Fixed chat messages sometimes cutting off last word.
-Fixed the "You havent made this before" label stuck forever in craft menu.
-Added rule "AlwaysAllowCarry" to allow carrying conscious players. default "false"
-Added "Toggle to talk" mode to voicechat.
-Fixed missing text in CPR minigame.
-Hopefully improved horrible delay on steam lobbies. (a quick bandaid fix, im release proper fix later)
-TODO
-TODO
- - TODO
- - TODO
-TODO
-TODO
-TODO
-TODO
 
  --- 3.0.0 --- 01.05.2026 --- Steam Update --- 
 Ported to the game version v6.1
@@ -282,7 +258,7 @@ Special thanks for participation goes to:
  - avr - @avr_crtscc  - playtester
  - ItsVoidSK - @itsvoidskilled  - playtester
  - {Pixel} - @canned_pixels  - playtester
- - Μπΰκ 2.0 - @mrakmm  - playtester
+ - ΓΓ°Γ Γª 2.0 - @mrakmm  - playtester
  - Shade - @waz2280  - playtester
  - Dictator - @snow_5107  - playtester
 
@@ -397,17 +373,5 @@ When viewing health panel of a dead player the red alert now says "DECEASED".
 Fixed health opiate effects state sync.
 Fixed friendly fire shotgun not dealing correct amount of damage. (now its very deadly)
 Fixed random lifepod buttons not syncing.
-
-
- --- 5.4.1.7 --- 09.11.2025 --- Private build for Orsoniks --- 
-Added watermarks.
-Increased physics sync rate in players close proximity.
-New system for melee and gun sync.
-Added friendly fire.
-
-
- --- 5.4.1.6 --- 20.10.2025 --- Testing --- 
-Trader sync.
-I think most of the features are synced in some capacity.
 
 
