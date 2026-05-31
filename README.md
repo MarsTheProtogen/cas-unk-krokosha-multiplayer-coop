@@ -12,18 +12,12 @@
 [![Game Version](https://img.shields.io/badge/Game_Version-v6.1-darkgreen?style=flat-square&logo=steam)](https://store.steampowered.com/app/4576510)
 </div>
 
-<!--
-#
 
 
- Multiplayer Mod for game [![Casualties: Unknown](https://img.shields.io/badge/Casualties%3A%20Unknown-%23000000.svg?logo=steam&logoColor=white)](https://store.steampowered.com/app/4576510) [ by Orsoniks](https://store.steampowered.com/app/4576510)<br> -->
 
-### Shitty Online Co-op mod for game ["Casualties: Unknown"](https://store.steampowered.com/app/4576510)<br/>
+### Online Multiplayer Co-op mod for game ["Casualties: Unknown"](https://store.steampowered.com/app/4576510)<br/>
 Credits are listed in "About" menu inside the mod.
 
-<!-- 
-[![Casualties: Together](https://img.shields.io/badge/Casualties%3A%20Together%20Mod%20Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/SA6H7mA6De)   [![Target Planet](https://img.shields.io/badge/Official%20Game%20Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/targetplanet)
--->
 
 [![Casualties: Together](https://img.shields.io/badge/Casualties%3A%20Together%20Mod%20Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/SA6H7mA6De)   [![Target Planet](https://img.shields.io/badge/Official%20Casualties%3A%20Unknown%20Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.com/channels/955738554129063947/1470206122844618802)
 
@@ -40,7 +34,7 @@ Credits are listed in "About" menu inside the mod.
 ### Requirements:
 Download Game: https://store.steampowered.com/app/4576510<br/>
 Download BepInEx: https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x64_5.4.23.5.zip<br/>
-Download Co-op Mod: https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop/releases/latest<br/>
+Download Co-op Mod: https://www.nexusmods.com/scavprototype/mods/67<br/>
 
 <details><summary>
 
@@ -140,7 +134,7 @@ MP3 Player now is a boombox instead of replacing background music.<br>
 
 Right click on a player to open a player interaction context menu.
  - Inspect health panel and perform any actions.
- - Inspect their inventory and take their items. (if rule "CanAccessOthersInventory" is false you can only access inventory of an unconscious player)
+ - Inspect their inventory and take their items. 
  - Feed any food or any usable item, like AutoPump.
 
 When a player dies, they are put into spectator mode.
