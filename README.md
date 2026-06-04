@@ -9,7 +9,7 @@
 [![Stars](https://img.shields.io/github/stars/Krokosha666/cas-unk-krokosha-multiplayer-coop?style=flat-square&label=Stars&color=orange&logo=github)](https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop/releases)
 [![Latest Release](https://img.shields.io/github/v/release/Krokosha666/cas-unk-krokosha-multiplayer-coop?style=flat-square&include_prereleases&logo=github&label=Version)](https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop/releases/latest)
 [![Total Downloads](https://img.shields.io/github/downloads/Krokosha666/cas-unk-krokosha-multiplayer-coop/total?style=flat-square&color=blue&logo=github&label=Downloads)](https://github.com/Krokosha666/cas-unk-krokosha-multiplayer-coop/releases)
-[![Game Version](https://img.shields.io/badge/Game_Version-v6.1-darkgreen?style=flat-square&logo=steam)](https://store.steampowered.com/app/4576510)
+[![Game Version](https://img.shields.io/badge/Game_Version-v7.0.1-darkgreen?style=flat-square&logo=steam)](https://store.steampowered.com/app/4576510)
 </div>
 
 

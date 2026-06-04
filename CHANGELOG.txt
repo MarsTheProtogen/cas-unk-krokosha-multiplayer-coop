@@ -9,8 +9,29 @@ KNOWN ISSUES:
  - Extreme lag with larger time scale.
  - Gun jamming might desync
  - Console commands are not synced. (but there is admin mode to run commands on server side)
- - Ragdoll just teleports around.
  
+
+	
+
+--- 3.1.0 --- 04.06.2026 --- Sloppy 7.0 port --- 
+- Additions
+    Patched phantom screen shake effect for:
+    - Spike stabber
+    - Jump pad
+    - Coil trap
+    - Bear trap
+    - Grappling hook
+    Added "Toggle to talk" mode to voicechat.
+    Added rule "AlwaysAllowCarry" to allow carrying conscious players. default "false"
+- Changes
+    Ported to 7.0.1 game version.
+    Adjusted some CPR values.
+- Fixes
+    Fixed Auto-updater not applying the update.
+    Added missing text in CPR minigame.
+    Fixed bug report send not working if you have unicode username in steam.
+
+
 
  --- 3.0.0 --- 01.05.2026 --- Steam Update --- 
 Ported to the game version v6.1
@@ -82,6 +103,7 @@ Allowed non-ascii characters in password.
 theres more changes, i forgor to write all
 
 
+
  --- 2.1.2 --- 12.03.2026 --- Save patch --- 
 Fixed anti player scatter unfairly engaging while late-joining.
 Fixed some piggyback desyncs for host.
@@ -98,6 +120,7 @@ Added command "syncreset" -> originally "krok objreset"
 Added command "maxplayers" -> originally "krok maxplayers"
 Removed command "krok" cuz all its functionality is now replaced with new commands
 Added command "clearinventory"
+
 
 
  --- 2.1.1 --- 06.03.2026 --- Inventory and containers fixes fixing fixed patches --- 
@@ -142,10 +165,14 @@ Improved Spectator mode:
 New Co-op mechanic:
  - Stay close to happier players to slow down mood loss. 
 
+
+
  --- 2.0.1 --- 26.02.2026 --- Dedicated server Hotfix --- 
 Fixed dedicated servers not generating any traps.
 Increased nearby item sync batch size.
 Improved item condition sync.
+
+
 
  --- 2.0.0 --- 26.02.2026 --- Cooperation Enforcement Update --- 
 Ported to the game version v5.1
@@ -258,7 +285,7 @@ Special thanks for participation goes to:
  - avr - @avr_crtscc  - playtester
  - ItsVoidSK - @itsvoidskilled  - playtester
  - {Pixel} - @canned_pixels  - playtester
- - ΓΓ°Γ Γª 2.0 - @mrakmm  - playtester
+ - Μπΰκ 2.0 - @mrakmm  - playtester
  - Shade - @waz2280  - playtester
  - Dictator - @snow_5107  - playtester
 
@@ -282,12 +309,14 @@ Added rule "FriendlyFireAttackerMoodDebuff"
 Updated BepInEx version to 5.4.23.4
 
 
+
  --- 5.4.1.11 --- 24.12.2025 --- Object sync improvement --- 
 Increased object load radius.
 Fixed chat not working after playing and going back to main menu.
 Fixed structure backgrounds syncing extremely lazily.
 Hopefully fixed player inventories getting stuck in desync purgatory after a layer transition.
 Hopefully fixed weird issue where caveticks broke all ur bones.
+
 
 
  --- 5.4.1.10 --- 23.12.2025 --- Major synchronization improvements and also Cannibalism update --- 
@@ -344,34 +373,22 @@ Slightly nerfed gun friendly fire damage. (idk why but whatever)
 When you sleep it shows list of players that are not sleeping.
 
 
+
  --- 5.4.1.9 --- 16.11.2025 --- Public release Hotfix --- 
 Added disconnection chat messages.
 Fixed bug that caused all players clear inventory when continuing to next layer.
 Host now requires a name. To fix potentially broken chat and allat.
 
 
- --- 5.4.1.8 --- 16.11.2025 --- Co-op Minigames update --- 
-Hopefully fixed some inventory desyncs.
-Fixed wrong melee friendly fire negative damage calculation.
-Added melee friendly fire knockback and brain damage.
-Character now cries when attacking a dying player.
-Fixed a couple NullReference exceptions in object destruction handling.
-Remade Minigame sync: Shrapnel, Dislocation, Keypad, Lockpicking - hands of other player are now visible.
-Crafting system sync - fixed favourited items for clients.
-Fixed syringe minigame not injecting correct amount.
-Attempted to implement some optimizations.
-Ping counter now shows actually correct ping.
-Improved loading screen to be uiScale dependent.
-Fixed layer modifiers not being reset.
-Improved nametag placement.
-Fixed player spawn location, now it properly spawns new players at location of any living player.
-Better player disconnect handling.
-Fixed late join handling (joining while the game is in progress doesnt completely break the game as often anymore)
-Synced Radiation Line gamemode.
-Fixed trader desyncs caused by host interactions.
-When viewing health panel of a dead player the red alert now says "DECEASED".
-Fixed health opiate effects state sync.
-Fixed friendly fire shotgun not dealing correct amount of damage. (now its very deadly)
-Fixed random lifepod buttons not syncing.
+
+ --- 5.4.1.8 --- 16.11.2025 --- Public release --- 
+Release
+
+
+
+
+
+
+
 
 
