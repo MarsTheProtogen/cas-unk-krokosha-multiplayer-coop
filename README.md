@@ -22,11 +22,11 @@ Credits are listed in "About" menu inside the mod.
 [![Casualties: Together](https://img.shields.io/badge/Casualties%3A%20Together%20Mod%20Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/SA6H7mA6De)   [![Target Planet](https://img.shields.io/badge/Official%20Casualties%3A%20Unknown%20Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.com/channels/955738554129063947/1470206122844618802)
 
 
-
+## support the original creator
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/krokosha666)
 
 
-
+<!--
 
 
 # Install Guide:
@@ -168,7 +168,7 @@ The Host must enter this console command:<br>
 **To let Client into server console mode they need "admin" privilege.**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(Given by "adminpriv [player]" or "adminpriv-password")**
 
-
+-->
 
 
 
