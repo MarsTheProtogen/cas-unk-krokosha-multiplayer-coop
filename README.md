@@ -13,7 +13,7 @@
 </div>
 
 
-
+# this is an experemental personal branch attempting to fix desync issues
 
 ### Online Multiplayer Co-op mod for game ["Casualties: Unknown"](https://store.steampowered.com/app/4576510)<br/>
 Credits are listed in "About" menu inside the mod.
